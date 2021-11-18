@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home">
+    </item>
+    <item
+        android:id="@+id/phone"
+        android:title="Phone"
+        android:icon="@drawable/ic_phone"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/wifi"
+        android:title="Wifi"
+        android:icon="@drawable/ic_wifi">
+    </item>
+    <item
+        android:id="@+id/send"
+        android:title="Send"
+        android:icon="@drawable/ic_send">
+    </item>
+</menu>
